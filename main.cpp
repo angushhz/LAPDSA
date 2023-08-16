@@ -264,7 +264,7 @@ int main()
 {
     for (int i = 0; i < MAX_VERTEX; i++)
         strcpy(myGraph.graph[i].vertex.strName, "-1");
-    readFile(myGraph, "input1.txt");
+    readFile(myGraph, "input.txt");
     switch (myGraph.nOperation)
     {
     case DISPLAYGRAPH:
